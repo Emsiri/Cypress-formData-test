@@ -10,7 +10,7 @@ Run
 The test should fail on the assertion "expected false to equal true" (in chrome)
 Now run the following
 `npx cypress run`
-The test will pass
+The test will pass.
 You can change the response code assertion to anything other than 200 and it will still pass
 ## Notes
 It seems when running the test with electron in open mode also incorrectly passes the test.
